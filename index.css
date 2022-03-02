@@ -1,0 +1,63 @@
+/* .container{
+    border: solid black;
+    height: 74vh;
+    width: 60%;
+    margin: auto;
+
+} */
+
+
+#circle {
+  border: 2px solid black;
+  height: 30vh;
+  width: 30vh;
+  border-radius: 48%;
+  background-color: blue;
+  left: 700px;
+  top: 20px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  animation: circle 3s infinite;
+}
+
+@keyframes circle {
+  20% {
+    background-color: rgb(43, 226, 98);
+    transition: all 0.5s ease-in-out;
+  }
+
+  40% {
+      background-color: blueviolet;
+    left: 700px;
+    top: 300px;
+    transition: all 0.5s ease-in-out;
+    width: 50vh;
+    height: 50vh;
+  }
+
+  60% {
+      background-color: aqua;
+    left: 500px;
+    top: 400px;
+    width: 20vh;
+    height: 20vh;
+    transition: all 0.5s ease-in-out;
+  }
+
+  80% {
+      background-color: brown;
+    left: 300px;
+    top: 100px;
+    width: 10vh;
+    height: 10vh;
+    transition: all 0.5s ease-in-out;
+  }
+
+  /* 90% {
+    left: 200px;
+    top: 200px;
+    width: 20vh;
+    height: 20vh;
+    transition: all 0.5s ease-out;
+  } */
+}
